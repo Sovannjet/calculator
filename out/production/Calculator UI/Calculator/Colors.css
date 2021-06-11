@@ -1,15 +1,56 @@
-.button {
-    -fx-background-color: #35008c;
+.num {
+    -fx-background-color: linear-gradient(#35008c, #15006c);
     -fx-background-radius: 25px;
     -fx-border-color: #ffffff;
     -fx-border-radius: 25px;
+    -fx-text-fill: white;
+    -fx-font-family: "Britannic Bold";
+    -fx-font-size: 14px;
+
+    -fx-background-insets: 0,1,2,3;
+    -fx-padding: 6 10 6 10;
 }
 
-.button:hover {
+.op {
+    -fx-background-color: linear-gradient(#008f8c, #006f6c);
+    -fx-background-radius: 25px;
+    -fx-border-color: #ffffff;
+    -fx-border-radius: 25px;
+    -fx-text-fill: white;
+    -fx-font-family: "Britannic Bold";
+    -fx-font-size: 14px;
+
+    -fx-background-insets: 0,1,2,3;
+    -fx-padding: 6 10 6 10;
+}
+
+.num:hover {
     -fx-background-color: #45009c;
 }
 
-.button:pressed:hover {
-    -fx-scale-y: 0.9;
-    -fx-scale-x: 0.9;
+.op:hover {
+    -fx-background-color: #109f9c;
+}
+
+.op:pressed:hover {
+    -fx-scale-y: 0.95;
+    -fx-scale-x: 0.95;
+}
+
+.num:pressed:hover {
+    -fx-scale-y: 0.95;
+    -fx-scale-x: 0.95;
+}
+
+#text-area {
+    -fx-background-color: #cccccc;
+    -fx-background-radius: 25px;
+    -fx-border-color: #ffffff;
+    -fx-border-radius: 25px;
+    -fx-text-fill: #111111;
+    -fx-font-family: "Britannic Bold";
+    -fx-font-size: 20px;
+
+    -fx-background-insets: 0,1,2,3;
+    -fx-padding: 6 10 6 10;
 }
