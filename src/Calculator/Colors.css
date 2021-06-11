@@ -1,0 +1,31 @@
+.num {
+    -fx-background-color: #35008c;
+    -fx-background-radius: 25px;
+    -fx-border-color: #ffffff;
+    -fx-border-radius: 25px;
+}
+
+.op {
+    -fx-background-color: #008f8c;
+    -fx-background-radius: 25px;
+    -fx-border-color: #ffffff;
+    -fx-border-radius: 25px;
+}
+
+.num:hover {
+    -fx-background-color: #45009c;
+}
+
+.op:hover {
+    -fx-background-color: #109f9c;
+}
+
+.op:pressed:hover {
+    -fx-scale-y: 0.9;
+    -fx-scale-x: 0.9;
+}
+
+.num:pressed:hover {
+    -fx-scale-y: 0.9;
+    -fx-scale-x: 0.9;
+}
